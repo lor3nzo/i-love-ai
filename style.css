@@ -1,0 +1,43 @@
+/*
+Theme Name:   I LOVE AI
+Description:  Twenty Seventeen Theme
+Author:           Neo (The ONE)
+Author URL:   http://i-love-ai.com
+Template:         twentytwentyfour
+Version:          1.0.0
+License:          All rights reserved
+Text Domain:  twentytwentyfour
+*/
+
+@import url("../twentytwentyfour/style.css");
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Custom minimalist styling */
+body {
+    background-color: #f0f0f0;  /* Light gray background */
+    color: #1a1a1a;             /* Very dark gray font */
+    font-family: 'Raleway', sans-serif !important;  /* Use custom font and force it */
+}
+
+a {
+    color: #1a1a1a;             /* Dark gray for links */
+    text-decoration: none;      /* Remove underline for cleaner look */
+    font-family: 'Raleway', sans-serif !important;  /* Apply font to links and force it */
+}
+
+a:hover {
+    text-decoration: underline; /* Show underline on hover */
+}
+
+h1, h2, h3, h4, h5, h6, .home-link a {
+    font-family: 'Raleway', sans-serif !important;  /* Apply to headings and home link for consistent look and force it */
+}
+
+header,
+footer,
+.sidebar,
+.widget {
+    display: none;              /* Hide header, footer, sidebar, and widgets for minimalism */
+}
